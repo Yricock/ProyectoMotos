@@ -15,9 +15,8 @@ public class ifrmEmpresa extends javax.swing.JInternalFrame {
     public ifrmEmpresa() {
         initComponents();
          this.ListarTablaEmp();
-         return;
     }
-
+//hoioaaas
      public void ListarTablaEmp (){
         List <CMEmpresa> liscli = cce.ListarTablaEmpresa();
         mod = (DefaultTableModel) tblEmpresa.getModel();
