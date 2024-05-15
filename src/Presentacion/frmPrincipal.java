@@ -68,7 +68,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         dpaneFondo.setLayout(dpaneFondoLayout);
         dpaneFondoLayout.setHorizontalGroup(
             dpaneFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 939, Short.MAX_VALUE)
+            .addGap(0, 1002, Short.MAX_VALUE)
         );
         dpaneFondoLayout.setVerticalGroup(
             dpaneFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -99,6 +99,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(mnuSalir);
 
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-empresa-48.png"))); // NOI18N
         jMenu6.setText("EMPRESA");
         jMenu6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
@@ -184,7 +185,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         jMenu4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenuBar1.add(jMenu4);
 
+        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-inventario-30.png"))); // NOI18N
         jMenu7.setText("INVENTARIO");
+        jMenu7.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
 
         jMenuItem6.setText("Inventario");
         jMenu7.add(jMenuItem6);
