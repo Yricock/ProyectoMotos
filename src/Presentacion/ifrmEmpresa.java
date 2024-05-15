@@ -15,6 +15,7 @@ public class ifrmEmpresa extends javax.swing.JInternalFrame {
     public ifrmEmpresa() {
         initComponents();
          this.ListarTablaEmp();
+         return;
     }
 
      public void ListarTablaEmp (){
