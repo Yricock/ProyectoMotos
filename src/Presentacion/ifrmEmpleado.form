@@ -105,30 +105,38 @@
                                   </Group>
                               </Group>
                               <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtTelefonoUsuario" min="-2" pref="140" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="txtApellidoUsuario" min="-2" pref="141" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                      <Component id="txtDniUsuario" min="-2" pref="80" max="-2" attributes="0"/>
-                                      <Component id="txtNombreUsuario" min="-2" pref="140" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtFecha" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="TxtSalario" min="-2" pref="141" max="-2" attributes="0"/>
+                                          <Component id="txtCargo" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtNombre" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="txtTelefono" min="-2" pref="140" max="-2" attributes="0"/>
                                   </Group>
+                                  <EmptySpace pref="68" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnModificar" max="32767" attributes="0"/>
+                                          <Component id="btnNuevo" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="btnSalirUsuario" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="btnEliminar" alignment="1" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <Component id="btnAgregar" alignment="1" min="-2" pref="92" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="txtDireccionUsuario" min="-2" pref="140" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace pref="68" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="btnModificarUsuario" max="32767" attributes="0"/>
-                                  <Component id="btnNuevoUsuario" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="btnSalirUsuario" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="txtEmail" min="-2" pref="140" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
-                              <Component id="btnEliminarUsuario" alignment="1" min="-2" pref="93" max="-2" attributes="0"/>
-                              <Component id="btnAgregarUsuario" alignment="1" min="-2" pref="92" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -141,44 +149,50 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txtDniUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNombre" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txtNombreUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtCargo" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtApellidoUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtSalario" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtTelefonoUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtFecha" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtDireccionUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="btnAgregarUsuario" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAgregar" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btnModificarUsuario" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnModificar" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                          <Component id="btnEliminarUsuario" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEliminar" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btnNuevoUsuario" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnNuevo" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="btnSalirUsuario" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="94" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="48" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -206,56 +220,56 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
         </Component>
-        <Component class="javax.swing.JTextField" name="txtDniUsuario">
+        <Component class="javax.swing.JTextField" name="txtNombre">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtApellidoUsuario">
+        <Component class="javax.swing.JTextField" name="TxtSalario">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtNombreUsuario">
+        <Component class="javax.swing.JTextField" name="txtCargo">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtTelefonoUsuario">
+        <Component class="javax.swing.JTextField" name="txtFecha">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTelefonoUsuarioActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFechaActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtDireccionUsuario">
+        <Component class="javax.swing.JTextField" name="txtTelefono">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnAgregarUsuario">
+        <Component class="javax.swing.JButton" name="btnAgregar">
           <Properties>
             <Property name="text" type="java.lang.String" value="AGREGAR"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarUsuarioActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnModificarUsuario">
+        <Component class="javax.swing.JButton" name="btnModificar">
           <Properties>
             <Property name="text" type="java.lang.String" value="MODIFICAR"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnEliminarUsuario">
+        <Component class="javax.swing.JButton" name="btnEliminar">
           <Properties>
             <Property name="text" type="java.lang.String" value="ELIMINAR"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarUsuarioActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnSalirUsuario">
@@ -264,11 +278,23 @@
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnNuevoUsuario">
+        <Component class="javax.swing.JButton" name="btnNuevo">
           <Properties>
             <Property name="text" type="java.lang.String" value="NUEVO"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TELEFONO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E-MAIL"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEmail">
         </Component>
       </SubComponents>
     </Container>
@@ -282,17 +308,29 @@
         <Component class="javax.swing.JTable" name="tblUsuarios">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="6" rowCount="0">
+              <Table columnCount="8" rowCount="0">
                 <Column editable="false" title="ID" type="java.lang.Object"/>
-                <Column editable="false" title="DNI" type="java.lang.Object"/>
                 <Column editable="false" title="NOMBRE" type="java.lang.Object"/>
-                <Column editable="false" title="APELLIDO" type="java.lang.Object"/>
+                <Column editable="false" title="CARGO" type="java.lang.Object"/>
+                <Column editable="false" title="SALARIO" type="java.lang.Object"/>
+                <Column editable="false" title="FECHA EMPLEACION" type="java.lang.Object"/>
                 <Column editable="false" title="TELEFONO" type="java.lang.Object"/>
-                <Column editable="false" title="DIRECCION" type="java.lang.Object"/>
+                <Column editable="false" title="E-MAIL" type="java.lang.Object"/>
+                <Column editable="false" title="VENTA" type="java.lang.Object"/>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
               <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
                 <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
                   <Title/>
                   <Editor/>

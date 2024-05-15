@@ -46,7 +46,7 @@ public class CCEmpleado {
         return cme;
     }
     
-    public List ListarTablaUsuario (){
+    public List ListarTabla (){
         List <CMEmpleado> listaemp = new ArrayList <>();
         String ConSQL ="SELECT * FROM EMPLEADO ORDER BY id_empleado ASC";
         
@@ -118,7 +118,7 @@ public class CCEmpleado {
         }
         return est;
     }
-    public void BorrarProducto(int idcli)
+    public void BorrarEmpleado(int idcli)
     {
         String ConSql="DELETE FROM EMPLEADO WHERE id_empleado=? ";
         System.out.println(ConSql);
