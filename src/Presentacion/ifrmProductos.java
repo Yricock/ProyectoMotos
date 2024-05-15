@@ -1,6 +1,6 @@
 package Presentacion;
 import Controlador.CCProductos;
-import Controlador.CCProductosM;
+import Controlador.CCProductos;
 import Modelo.CMProductos;
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
