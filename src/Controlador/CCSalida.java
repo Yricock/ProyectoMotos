@@ -93,7 +93,7 @@ public int ActualizarSalida(Object obj[]){
         } 
         catch (Exception e) 
         {
-            JOptionPane.showMessageDialog(null, "Error al borrar Producto"+ e.getMessage());
+            JOptionPane.showMessageDialog(null, "Error al borrar Producto"+ e.getMessage());            
 }
 }
 }
