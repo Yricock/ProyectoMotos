@@ -26,7 +26,7 @@ public class ifrmEmpleado extends javax.swing.JInternalFrame {
     public void ListarTablaEmple (){
         List <CMEmpleado> liscli = cce.ListarTabla();
         mod = (DefaultTableModel) tblUsuarios.getModel();
-        Object obj [] = new Object [6];
+        Object obj [] = new Object [8];
         
          for (int i = 0; i < liscli.size(); i++) {
              obj[0] = liscli.get(i).getIdEmpleado();
